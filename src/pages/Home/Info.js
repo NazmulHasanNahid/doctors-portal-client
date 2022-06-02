@@ -6,10 +6,10 @@ import phone from '../../assets/icons/phone.svg'
 
 const Info = () => {
      return (
-          <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-20'>
-              <InfoCard img={clock}></InfoCard> 
-              <InfoCard img={marker}></InfoCard> 
-              <InfoCard img={phone}></InfoCard> 
+          <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-12'>
+              <InfoCard bg-class="bg-gradient-to-r from-secondary to-primary" des="Lorem Ipsum is simply dummy text of the pri" title="Opening Hours" img={clock}></InfoCard> 
+              <InfoCard bg-class="bg-accent" des="Brooklyn, NY 10036, United States" title="Visit our location" img={marker}></InfoCard> 
+              <InfoCard bg-class="bg-gradient-to-r from-secondary to-primary" des="+000 123 456789" title="Contact us now" img={phone}></InfoCard> 
           </div>
      );
 };
